@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rvMjk6fhcku7p1i83zHG3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/checks/search" CVScreenId="beed145d-ae52-41c0-87c5-28835f1a39ba" DesignTimeRectangle="334, 493, 607, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='checkNumber' tag='INPUT' /&gt;" Guid="48890001-3416-426e-b5bc-83f2788302a1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search Client Check' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="beed145d-ae52-41c0-87c5-28835f1a39ba" CvTextArea="332, 464, 128, 17" CvTextArgument="Check Number" CvType="Text" DesignTimeRectangle="334, 462, 124, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Check Number' check:innerText='Check Number' /&gt;" Guid="03e3ae71-f50e-43a6-bbe8-c0dd8f120c00" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9415c7c204b234b7d752a0230fc67d31.png" xmlns="">0FXUnE5_phkyxDudsVeS-GQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

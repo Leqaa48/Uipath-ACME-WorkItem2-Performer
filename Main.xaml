@@ -1,0 +1,1109 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1156,671.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+      <Flowchart.Variables>
+        <Variable x:TypeArguments="ui:QueueItem" Name="tr_WorkItem" />
+        <Variable x:TypeArguments="x:String" Name="strPDFFilePath" />
+        <Variable x:TypeArguments="x:String" Name="strID" />
+        <Variable x:TypeArguments="x:String" Name="strCheckNo" />
+        <Variable x:TypeArguments="x:String" Name="strCheckDate" />
+        <Variable x:TypeArguments="x:String" Name="CheckAmount" />
+        <Variable x:TypeArguments="x:String" Name="strImageFilePath" />
+        <Variable x:TypeArguments="x:String" Name="strAccountFoundedFlag" />
+        <Variable x:TypeArguments="x:Boolean" Name="BoolAccountFoundedProcess" />
+        <Variable x:TypeArguments="x:Boolean" Name="BoolAccountFoundedPending" />
+        <Variable x:TypeArguments="x:String" Name="strAcme3FilePath" />
+        <Variable x:TypeArguments="x:String" Name="CredUsername" />
+        <Variable x:TypeArguments="ss:SecureString" Name="CredPassword" />
+        <Variable x:TypeArguments="x:String" Name="strAcmePageFlage" />
+        <Variable x:TypeArguments="x:String" Name="strLoginFlage" />
+      </Flowchart.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <av:Point x:Key="ShapeLocation">695,35</av:Point>
+          <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">719.8,84.6 720.2,84.6 720.2,85</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Flowchart.StartNode>
+        <x:Reference>__ReferenceID44</x:Reference>
+      </Flowchart.StartNode>
+      <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">665,485</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">720.2,555.4 720.2,585.4 720,585.4 720,600</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="ACME_WorkItems2" TransactionItem="[tr_WorkItem]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:GetQueueItem>
+        <FlowStep.Next>
+          <FlowDecision x:Name="__ReferenceID4" Condition="[tr_WorkItem IsNot Nothing]" DisplayName="If Transaction Not Nothing" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <av:Point x:Key="ShapeLocation">690,600</av:Point>
+                <av:Size x:Key="ShapeSize">60,60</av:Size>
+                <av:PointCollection x:Key="TrueConnector">690,630 660,630 660,630.2 625.4,630.2</av:PointCollection>
+                <av:PointCollection x:Key="FalseConnector">750,630 780,630 780,630.2 815,630.2</av:PointCollection>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <FlowDecision.True>
+              <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <av:Point x:Key="ShapeLocation">515,595</av:Point>
+                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                    <av:PointCollection x:Key="ConnectorLocation">570.2,665.4 570.2,675</av:PointCollection>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_WorkitemDetails - Invoke Workflow File (ACME_WebApplication\ACME_WorkitemDetails.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_WorkitemDetails.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_ItemWIID">[tr_WorkItem.SpecificContent("WIID").ToString.Trim]</InArgument>
+                  </ui:InvokeWorkflowFile.Arguments>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:InvokeWorkflowFile>
+                <FlowStep.Next>
+                  <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <av:Point x:Key="ShapeLocation">515,675</av:Point>
+                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                        <av:PointCollection x:Key="ConnectorLocation">570.2,745.4 570.2,755</av:PointCollection>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_ClickDownloadCheckRequest - Invoke Workflow File (ACME_WebApplication\ACME_ClickDownloadCheckRequest.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_88" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_ClickDownloadCheckRequest.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                      </ui:InvokeWorkflowFile.Arguments>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InvokeWorkflowFile>
+                    <FlowStep.Next>
+                      <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">515,755</av:Point>
+                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                            <av:PointCollection x:Key="ConnectorLocation">570.2,825.4 570.2,835</av:PointCollection>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_ClickSavePDF - Invoke Workflow File (ACME_WebApplication\ACME_ClickSavePDF.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_89" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_ClickSavePDF.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                          </ui:InvokeWorkflowFile.Arguments>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:InvokeWorkflowFile>
+                        <FlowStep.Next>
+                          <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_3">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <av:Point x:Key="ShapeLocation">515,835</av:Point>
+                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                <av:PointCollection x:Key="ConnectorLocation">570.2,905.4 570.2,915</av:PointCollection>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Edge_DownloadWindowHandle - Invoke Workflow File (Edge_DownloadPopUp\Edge_DownloadWindowHandle.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_90" UnSafe="False" WorkflowFileName="Edge_DownloadPopUp\Edge_DownloadWindowHandle.xaml">
+                              <ui:InvokeWorkflowFile.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_FileName">["Check-Request-For-"+tr_WorkItem.SpecificContent("WIID").ToString.Trim+".pdf"]</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_FolderPath">["C:\Users\"+Environment.UserName+"\Desktop"]</InArgument>
+                                <OutArgument x:TypeArguments="x:String" x:Key="out_PDFFilePath">[strPDFFilePath]</OutArgument>
+                              </ui:InvokeWorkflowFile.Arguments>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:InvokeWorkflowFile>
+                            <FlowStep.Next>
+                              <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_4">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <av:Point x:Key="ShapeLocation">515,915</av:Point>
+                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                    <av:PointCollection x:Key="ConnectorLocation">570.2,985.4 570.2,995</av:PointCollection>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_ReadPDF - Invoke Workflow File (ACME_WebApplication\ACME_ReadPDF.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_91" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_ReadPDF.xaml">
+                                  <ui:InvokeWorkflowFile.Arguments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_PDFFilePath">[strPDFFilePath]</InArgument>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="out_ID">[strID]</OutArgument>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="out_CheckNo">[strCheckNo]</OutArgument>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="out_CheckDate">[strCheckDate]</OutArgument>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="out_CheckAmount">[CheckAmount]</OutArgument>
+                                  </ui:InvokeWorkflowFile.Arguments>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:InvokeWorkflowFile>
+                                <FlowStep.Next>
+                                  <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_5">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <av:Point x:Key="ShapeLocation">515,995</av:Point>
+                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                        <av:PointCollection x:Key="ConnectorLocation">570.2,1065.4 570.2,1075</av:PointCollection>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_Clients - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_Clients.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_92" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_Clients.xaml">
+                                      <ui:InvokeWorkflowFile.Arguments>
+                                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                      </ui:InvokeWorkflowFile.Arguments>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ui:InvokeWorkflowFile>
+                                    <FlowStep.Next>
+                                      <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_6">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <av:Point x:Key="ShapeLocation">515,1075</av:Point>
+                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                            <av:PointCollection x:Key="ConnectorLocation">570.2,1145.4 570.2,1155</av:PointCollection>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_SearchById - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_SearchById.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_93" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_SearchById.xaml">
+                                          <ui:InvokeWorkflowFile.Arguments>
+                                            <InArgument x:TypeArguments="x:String" x:Key="in_ClientId">[strID]</InArgument>
+                                          </ui:InvokeWorkflowFile.Arguments>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </ui:InvokeWorkflowFile>
+                                        <FlowStep.Next>
+                                          <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_7">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <av:Point x:Key="ShapeLocation">515,1155</av:Point>
+                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                <av:PointCollection x:Key="ConnectorLocation">570.2,1225.4 570.2,1235</av:PointCollection>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_OpenAcount - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_OpenAcount.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_94" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_OpenAccount.xaml">
+                                              <ui:InvokeWorkflowFile.Arguments>
+                                                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                              </ui:InvokeWorkflowFile.Arguments>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </ui:InvokeWorkflowFile>
+                                            <FlowStep.Next>
+                                              <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_8">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <av:Point x:Key="ShapeLocation">515,1235</av:Point>
+                                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                    <av:PointCollection x:Key="ConnectorLocation">570.2,1305.4 570.2,1315</av:PointCollection>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_ClickClientCkeck1 - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_ClickClientCkeck1.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_95" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_ClickClientCkeck1.xaml">
+                                                  <ui:InvokeWorkflowFile.Arguments>
+                                                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                  </ui:InvokeWorkflowFile.Arguments>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </ui:InvokeWorkflowFile>
+                                                <FlowStep.Next>
+                                                  <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_9">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <av:Point x:Key="ShapeLocation">515,1315</av:Point>
+                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                        <av:PointCollection x:Key="ConnectorLocation">570.2,1385.4 570.2,1415.4 570,1415.4 570,1450</av:PointCollection>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_TypeIdAndDate - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_TypeIdAndDate.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_96" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_TypeIdAndDate.xaml">
+                                                      <ui:InvokeWorkflowFile.Arguments>
+                                                        <InArgument x:TypeArguments="x:String" x:Key="in_CkeckNo">[strCheckNo]</InArgument>
+                                                        <InArgument x:TypeArguments="x:String" x:Key="in_Date">[strCheckDate]</InArgument>
+                                                        <InArgument x:TypeArguments="x:String" x:Key="in_CheckNo">[strCheckNo]</InArgument>
+                                                        <OutArgument x:TypeArguments="x:Boolean" x:Key="out_AccountFounded">[BoolAccountFoundedProcess]</OutArgument>
+                                                      </ui:InvokeWorkflowFile.Arguments>
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </ui:InvokeWorkflowFile>
+                                                    <FlowStep.Next>
+                                                      <FlowDecision x:Name="__ReferenceID30" Condition="[BoolAccountFoundedProcess]" DisplayName="Account Founded?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                            <av:Point x:Key="ShapeLocation">540,1450</av:Point>
+                                                            <av:Size x:Key="ShapeSize">60,60</av:Size>
+                                                            <av:PointCollection x:Key="TrueConnector">540,1480 360.2,1480 360.2,1665</av:PointCollection>
+                                                            <av:PointCollection x:Key="FalseConnector">600,1480 800.2,1480 800.2,1545</av:PointCollection>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <FlowDecision.True>
+                                                          <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_10">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <av:Point x:Key="ShapeLocation">305,1665</av:Point>
+                                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                <av:PointCollection x:Key="ConnectorLocation">360.2,1735.4 360.2,1825</av:PointCollection>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_DoubleClickAccount - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_DoubleClickAccount.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_97" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_DoubleClickAccount.xaml">
+                                                              <ui:InvokeWorkflowFile.Arguments>
+                                                                <InArgument x:TypeArguments="x:String" x:Key="in_Id">[strID]</InArgument>
+                                                                <OutArgument x:TypeArguments="x:String" x:Key="out_AccountFoundedFlag">[strAccountFoundedFlag]</OutArgument>
+                                                                <InArgument x:TypeArguments="x:String" x:Key="in_CheckNo">[strCheckNo]</InArgument>
+                                                              </ui:InvokeWorkflowFile.Arguments>
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </ui:InvokeWorkflowFile>
+                                                            <FlowStep.Next>
+                                                              <FlowStep x:Name="__ReferenceID19" sap2010:WorkflowViewState.IdRef="FlowStep_17">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <av:Point x:Key="ShapeLocation">305,1825</av:Point>
+                                                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                    <av:PointCollection x:Key="ConnectorLocation">360.2,1895.4 360.2,1915</av:PointCollection>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_ScreenShot - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_ScreenShot.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_113" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_ScreenShot.xaml">
+                                                                  <ui:InvokeWorkflowFile.Arguments>
+                                                                    <InArgument x:TypeArguments="x:String" x:Key="in_CheckNo">[strCheckNo]</InArgument>
+                                                                    <OutArgument x:TypeArguments="x:String" x:Key="out_ImageFilePath">[strImageFilePath]</OutArgument>
+                                                                  </ui:InvokeWorkflowFile.Arguments>
+                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                    </scg:Dictionary>
+                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                </ui:InvokeWorkflowFile>
+                                                                <FlowStep.Next>
+                                                                  <FlowStep x:Name="__ReferenceID20" sap2010:WorkflowViewState.IdRef="FlowStep_18">
+                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                        <av:Point x:Key="ShapeLocation">305,1915</av:Point>
+                                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                        <av:PointCollection x:Key="ConnectorLocation">360.2,1985.4 360.2,2005</av:PointCollection>
+                                                                      </scg:Dictionary>
+                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_AppControl - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_AppControl.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_114" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_AppControl.xaml">
+                                                                      <ui:InvokeWorkflowFile.Arguments>
+                                                                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                      </ui:InvokeWorkflowFile.Arguments>
+                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                        </scg:Dictionary>
+                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                    </ui:InvokeWorkflowFile>
+                                                                    <FlowStep.Next>
+                                                                      <FlowStep x:Name="__ReferenceID21" sap2010:WorkflowViewState.IdRef="FlowStep_19">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <av:Point x:Key="ShapeLocation">305,2005</av:Point>
+                                                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                            <av:PointCollection x:Key="ConnectorLocation">360.2,2075.4 360.2,2095</av:PointCollection>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_Dashboard - Invoke Workflow File (ACME_WebApplication\ACME_Dashboard.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_115" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_Dashboard.xaml">
+                                                                          <ui:InvokeWorkflowFile.Arguments>
+                                                                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                          </ui:InvokeWorkflowFile.Arguments>
+                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                            </scg:Dictionary>
+                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                        </ui:InvokeWorkflowFile>
+                                                                        <FlowStep.Next>
+                                                                          <FlowStep x:Name="__ReferenceID22" sap2010:WorkflowViewState.IdRef="FlowStep_20">
+                                                                            <sap:WorkflowViewStateService.ViewState>
+                                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                <av:Point x:Key="ShapeLocation">305,2095</av:Point>
+                                                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                <av:PointCollection x:Key="ConnectorLocation">360.2,2165.4 360.2,2185</av:PointCollection>
+                                                                              </scg:Dictionary>
+                                                                            </sap:WorkflowViewStateService.ViewState>
+                                                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_ClickSubmitCheckCopy - Invoke Workflow File (ACME_WebApplication\ACME_ClickSubmitCheckCopy.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_116" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_ClickSubmitCheckCopy.xaml">
+                                                                              <ui:InvokeWorkflowFile.Arguments>
+                                                                                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                              </ui:InvokeWorkflowFile.Arguments>
+                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                </scg:Dictionary>
+                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                            </ui:InvokeWorkflowFile>
+                                                                            <FlowStep.Next>
+                                                                              <FlowStep x:Name="__ReferenceID23" sap2010:WorkflowViewState.IdRef="FlowStep_21">
+                                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                    <av:Point x:Key="ShapeLocation">305,2185</av:Point>
+                                                                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                    <av:PointCollection x:Key="ConnectorLocation">360.2,2255.4 360.2,2275</av:PointCollection>
+                                                                                  </scg:Dictionary>
+                                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_UploadClientCheck - Invoke Workflow File (ACME_WebApplication\ACME_UploadClientCheck.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_117" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_UploadClientCheck.xaml">
+                                                                                  <ui:InvokeWorkflowFile.Arguments>
+                                                                                    <InArgument x:TypeArguments="x:String" x:Key="in_CheckId">[strID]</InArgument>
+                                                                                    <InArgument x:TypeArguments="x:String" x:Key="in_CheckNo">[strCheckNo]</InArgument>
+                                                                                  </ui:InvokeWorkflowFile.Arguments>
+                                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                    </scg:Dictionary>
+                                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                                </ui:InvokeWorkflowFile>
+                                                                                <FlowStep.Next>
+                                                                                  <FlowStep x:Name="__ReferenceID24" sap2010:WorkflowViewState.IdRef="FlowStep_22">
+                                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                        <av:Point x:Key="ShapeLocation">305,2275</av:Point>
+                                                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                        <av:PointCollection x:Key="ConnectorLocation">360.2,2345.4 360.2,2365</av:PointCollection>
+                                                                                      </scg:Dictionary>
+                                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_UploadPhoto - Invoke Workflow File (ACME_WebApplication\ACME_UploadPhoto.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_118" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_UploadPhoto.xaml">
+                                                                                      <ui:InvokeWorkflowFile.Arguments>
+                                                                                        <InArgument x:TypeArguments="x:String" x:Key="in_ImageFilePath">[strImageFilePath]</InArgument>
+                                                                                      </ui:InvokeWorkflowFile.Arguments>
+                                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                        </scg:Dictionary>
+                                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                                    </ui:InvokeWorkflowFile>
+                                                                                    <FlowStep.Next>
+                                                                                      <FlowStep x:Name="__ReferenceID25" sap2010:WorkflowViewState.IdRef="FlowStep_23">
+                                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                            <av:Point x:Key="ShapeLocation">305,2365</av:Point>
+                                                                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                            <av:PointCollection x:Key="ConnectorLocation">360.2,2435.4 360.2,2445</av:PointCollection>
+                                                                                          </scg:Dictionary>
+                                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_WorkitemDetails - Invoke Workflow File (ACME_WebApplication\ACME_WorkitemDetails.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_119" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_WorkitemDetails.xaml">
+                                                                                          <ui:InvokeWorkflowFile.Arguments>
+                                                                                            <InArgument x:TypeArguments="x:String" x:Key="in_ItemWIID">[tr_WorkItem.SpecificContent("WIID").ToString.Trim]</InArgument>
+                                                                                          </ui:InvokeWorkflowFile.Arguments>
+                                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                            </scg:Dictionary>
+                                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                                        </ui:InvokeWorkflowFile>
+                                                                                        <FlowStep.Next>
+                                                                                          <FlowStep x:Name="__ReferenceID26" sap2010:WorkflowViewState.IdRef="FlowStep_24">
+                                                                                            <sap:WorkflowViewStateService.ViewState>
+                                                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                <av:Point x:Key="ShapeLocation">305,2445</av:Point>
+                                                                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                                <av:PointCollection x:Key="ConnectorLocation">360.2,2515.4 360.2,2535</av:PointCollection>
+                                                                                              </scg:Dictionary>
+                                                                                            </sap:WorkflowViewStateService.ViewState>
+                                                                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_OpenUpdateWorkItem - Invoke Workflow File (ACME_WebApplication\ACME_OpenUpdateWorkItem.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_120" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_OpenUpdateWorkItem.xaml">
+                                                                                              <ui:InvokeWorkflowFile.Arguments>
+                                                                                                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                                              </ui:InvokeWorkflowFile.Arguments>
+                                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                                </scg:Dictionary>
+                                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                                            </ui:InvokeWorkflowFile>
+                                                                                            <FlowStep.Next>
+                                                                                              <FlowStep x:Name="__ReferenceID27" sap2010:WorkflowViewState.IdRef="FlowStep_25">
+                                                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                    <av:Point x:Key="ShapeLocation">305,2535</av:Point>
+                                                                                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                                    <av:PointCollection x:Key="ConnectorLocation">360.2,2605.4 360.2,2625</av:PointCollection>
+                                                                                                  </scg:Dictionary>
+                                                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_CheckAndUpdateWorkItem - Invoke Workflow File (ACME_WebApplication\ACME_CheckAndUpdateWorkItem.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_121" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_CheckAndUpdateWorkItem.xaml">
+                                                                                                  <ui:InvokeWorkflowFile.Arguments>
+                                                                                                    <InArgument x:TypeArguments="x:String" x:Key="in_Comment">Check found in System 3</InArgument>
+                                                                                                    <InArgument x:TypeArguments="x:String" x:Key="in_Status">Completed</InArgument>
+                                                                                                  </ui:InvokeWorkflowFile.Arguments>
+                                                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                                    </scg:Dictionary>
+                                                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                                                </ui:InvokeWorkflowFile>
+                                                                                                <FlowStep.Next>
+                                                                                                  <FlowStep x:Name="__ReferenceID28" sap2010:WorkflowViewState.IdRef="FlowStep_26">
+                                                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                        <av:Point x:Key="ShapeLocation">305,2625</av:Point>
+                                                                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                                        <av:PointCollection x:Key="ConnectorLocation">360.2,2695.4 360.2,2715</av:PointCollection>
+                                                                                                      </scg:Dictionary>
+                                                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                                                    <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'msedge.exe ACME System 1'" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="CloseWindow_6" InformativeScreenshot="8bdb67a6bd22ddbb0dad194660d41976" Selector="&lt;html app='msedge.exe' title='ACME System 1' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                                        </scg:Dictionary>
+                                                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                                                    </ui:CloseWindow>
+                                                                                                    <FlowStep.Next>
+                                                                                                      <FlowStep x:Name="__ReferenceID29" sap2010:WorkflowViewState.IdRef="FlowStep_27">
+                                                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                            <av:Point x:Key="ShapeLocation">305,2715</av:Point>
+                                                                                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                                            <av:PointCollection x:Key="ConnectorLocation">305,2750.2 275,2750.2 275,520.2 665,520.2</av:PointCollection>
+                                                                                                          </scg:Dictionary>
+                                                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                                                        <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_8" Status="Successful" TransactionItem="[tr_WorkItem]">
+                                                                                                          <ui:SetTransactionStatus.Analytics>
+                                                                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                                                          </ui:SetTransactionStatus.Analytics>
+                                                                                                          <ui:SetTransactionStatus.Output>
+                                                                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                                                          </ui:SetTransactionStatus.Output>
+                                                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                                            </scg:Dictionary>
+                                                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                                                        </ui:SetTransactionStatus>
+                                                                                                        <FlowStep.Next>
+                                                                                                          <x:Reference>__ReferenceID0</x:Reference>
+                                                                                                        </FlowStep.Next>
+                                                                                                      </FlowStep>
+                                                                                                    </FlowStep.Next>
+                                                                                                  </FlowStep>
+                                                                                                </FlowStep.Next>
+                                                                                              </FlowStep>
+                                                                                            </FlowStep.Next>
+                                                                                          </FlowStep>
+                                                                                        </FlowStep.Next>
+                                                                                      </FlowStep>
+                                                                                    </FlowStep.Next>
+                                                                                  </FlowStep>
+                                                                                </FlowStep.Next>
+                                                                              </FlowStep>
+                                                                            </FlowStep.Next>
+                                                                          </FlowStep>
+                                                                        </FlowStep.Next>
+                                                                      </FlowStep>
+                                                                    </FlowStep.Next>
+                                                                  </FlowStep>
+                                                                </FlowStep.Next>
+                                                              </FlowStep>
+                                                            </FlowStep.Next>
+                                                          </FlowStep>
+                                                        </FlowDecision.True>
+                                                        <FlowDecision.False>
+                                                          <FlowStep x:Name="__ReferenceID31" sap2010:WorkflowViewState.IdRef="FlowStep_29">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <av:Point x:Key="ShapeLocation">745,1545</av:Point>
+                                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                <av:PointCollection x:Key="ConnectorLocation">800.2,1615.4 800.2,1645.4 800,1645.4 800,1670</av:PointCollection>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_CheckAcountInPending - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_CheckAcountInPending.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_123" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_CheckAcountInPending.xaml">
+                                                              <ui:InvokeWorkflowFile.Arguments>
+                                                                <InArgument x:TypeArguments="x:String" x:Key="in_CkeckNo">[strCheckNo]</InArgument>
+                                                                <OutArgument x:TypeArguments="x:Boolean" x:Key="out_AccountFounded">[BoolAccountFoundedPending]</OutArgument>
+                                                              </ui:InvokeWorkflowFile.Arguments>
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </ui:InvokeWorkflowFile>
+                                                            <FlowStep.Next>
+                                                              <FlowDecision x:Name="__ReferenceID32" Condition="[BoolAccountFoundedProcess]" DisplayName="Account Founded?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_5" True="{x:Reference __ReferenceID1}">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                    <av:Point x:Key="ShapeLocation">770,1670</av:Point>
+                                                                    <av:Size x:Key="ShapeSize">60,60</av:Size>
+                                                                    <av:PointCollection x:Key="TrueConnector">770,1700 740,1700 740,1700.2 415.4,1700.2</av:PointCollection>
+                                                                    <av:PointCollection x:Key="FalseConnector">800,1730 800,1760 800.2,1760 800.2,1825</av:PointCollection>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <FlowDecision.False>
+                                                                  <FlowStep x:Name="__ReferenceID14" sap2010:WorkflowViewState.IdRef="FlowStep_12">
+                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                        <av:Point x:Key="ShapeLocation">745,1825</av:Point>
+                                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                        <av:PointCollection x:Key="ConnectorLocation">800.2,1895.4 800.2,1915</av:PointCollection>
+                                                                      </scg:Dictionary>
+                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_WorkitemDetails - Invoke Workflow File (ACME_WebApplication\ACME_WorkitemDetails.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_110" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_WorkitemDetails.xaml">
+                                                                      <ui:InvokeWorkflowFile.Arguments>
+                                                                        <InArgument x:TypeArguments="x:String" x:Key="in_ItemWIID">[tr_WorkItem.SpecificContent("WIID").ToString.Trim]</InArgument>
+                                                                      </ui:InvokeWorkflowFile.Arguments>
+                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                        </scg:Dictionary>
+                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                    </ui:InvokeWorkflowFile>
+                                                                    <FlowStep.Next>
+                                                                      <FlowStep x:Name="__ReferenceID15" sap2010:WorkflowViewState.IdRef="FlowStep_13">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <av:Point x:Key="ShapeLocation">745,1915</av:Point>
+                                                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                            <av:PointCollection x:Key="ConnectorLocation">800.2,1985.4 800.2,2005</av:PointCollection>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_OpenUpdateWorkItem - Invoke Workflow File (ACME_WebApplication\ACME_OpenUpdateWorkItem.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_111" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_OpenUpdateWorkItem.xaml">
+                                                                          <ui:InvokeWorkflowFile.Arguments>
+                                                                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                          </ui:InvokeWorkflowFile.Arguments>
+                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                            </scg:Dictionary>
+                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                        </ui:InvokeWorkflowFile>
+                                                                        <FlowStep.Next>
+                                                                          <FlowStep x:Name="__ReferenceID16" sap2010:WorkflowViewState.IdRef="FlowStep_14">
+                                                                            <sap:WorkflowViewStateService.ViewState>
+                                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                <av:Point x:Key="ShapeLocation">745,2005</av:Point>
+                                                                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                <av:PointCollection x:Key="ConnectorLocation">800.2,2075.4 800.2,2085</av:PointCollection>
+                                                                              </scg:Dictionary>
+                                                                            </sap:WorkflowViewStateService.ViewState>
+                                                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_CheckAndUpdateWorkItem - Invoke Workflow File (ACME_WebApplication\ACME_CheckAndUpdateWorkItem.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_112" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_CheckAndUpdateWorkItem.xaml">
+                                                                              <ui:InvokeWorkflowFile.Arguments>
+                                                                                <InArgument x:TypeArguments="x:String" x:Key="in_Comment">Check not found in System 1 or System</InArgument>
+                                                                                <InArgument x:TypeArguments="x:String" x:Key="in_Status">Rejected</InArgument>
+                                                                              </ui:InvokeWorkflowFile.Arguments>
+                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                </scg:Dictionary>
+                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                            </ui:InvokeWorkflowFile>
+                                                                            <FlowStep.Next>
+                                                                              <FlowStep x:Name="__ReferenceID17" sap2010:WorkflowViewState.IdRef="FlowStep_15">
+                                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                    <av:Point x:Key="ShapeLocation">745,2085</av:Point>
+                                                                                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                    <av:PointCollection x:Key="ConnectorLocation">800.2,2155.4 800.2,2185</av:PointCollection>
+                                                                                  </scg:Dictionary>
+                                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                                <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'msedge.exe ACME System 1'" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="CloseWindow_5" InformativeScreenshot="8bdb67a6bd22ddbb0dad194660d41976" Selector="&lt;html app='msedge.exe' title='ACME System 1' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                  <sap:WorkflowViewStateService.ViewState>
+                                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                    </scg:Dictionary>
+                                                                                  </sap:WorkflowViewStateService.ViewState>
+                                                                                </ui:CloseWindow>
+                                                                                <FlowStep.Next>
+                                                                                  <FlowStep x:Name="__ReferenceID33" sap2010:WorkflowViewState.IdRef="FlowStep_30">
+                                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                        <av:Point x:Key="ShapeLocation">745,2185</av:Point>
+                                                                                        <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                        <av:PointCollection x:Key="ConnectorLocation">800.2,2255.4 800.2,2295</av:PointCollection>
+                                                                                      </scg:Dictionary>
+                                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_AppControl - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_AppControl.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_124" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_AppControl.xaml">
+                                                                                      <ui:InvokeWorkflowFile.Arguments>
+                                                                                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                                                                      </ui:InvokeWorkflowFile.Arguments>
+                                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                        </scg:Dictionary>
+                                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                                    </ui:InvokeWorkflowFile>
+                                                                                    <FlowStep.Next>
+                                                                                      <FlowStep x:Name="__ReferenceID18" sap2010:WorkflowViewState.IdRef="FlowStep_16">
+                                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                            <av:Point x:Key="ShapeLocation">745,2295</av:Point>
+                                                                                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                                                                            <av:PointCollection x:Key="ConnectorLocation">855.4,2330.2 948.2,2330.2 948.2,520.2 775.4,520.2</av:PointCollection>
+                                                                                          </scg:Dictionary>
+                                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                                        <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_7" Status="Successful" TransactionItem="[tr_WorkItem]">
+                                                                                          <ui:SetTransactionStatus.Analytics>
+                                                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                                          </ui:SetTransactionStatus.Analytics>
+                                                                                          <ui:SetTransactionStatus.Output>
+                                                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                                          </ui:SetTransactionStatus.Output>
+                                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                            </scg:Dictionary>
+                                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                                        </ui:SetTransactionStatus>
+                                                                                        <FlowStep.Next>
+                                                                                          <x:Reference>__ReferenceID0</x:Reference>
+                                                                                        </FlowStep.Next>
+                                                                                      </FlowStep>
+                                                                                    </FlowStep.Next>
+                                                                                  </FlowStep>
+                                                                                </FlowStep.Next>
+                                                                              </FlowStep>
+                                                                            </FlowStep.Next>
+                                                                          </FlowStep>
+                                                                        </FlowStep.Next>
+                                                                      </FlowStep>
+                                                                    </FlowStep.Next>
+                                                                  </FlowStep>
+                                                                </FlowDecision.False>
+                                                              </FlowDecision>
+                                                            </FlowStep.Next>
+                                                          </FlowStep>
+                                                        </FlowDecision.False>
+                                                      </FlowDecision>
+                                                    </FlowStep.Next>
+                                                  </FlowStep>
+                                                </FlowStep.Next>
+                                              </FlowStep>
+                                            </FlowStep.Next>
+                                          </FlowStep>
+                                        </FlowStep.Next>
+                                      </FlowStep>
+                                    </FlowStep.Next>
+                                  </FlowStep>
+                                </FlowStep.Next>
+                              </FlowStep>
+                            </FlowStep.Next>
+                          </FlowStep>
+                        </FlowStep.Next>
+                      </FlowStep>
+                    </FlowStep.Next>
+                  </FlowStep>
+                </FlowStep.Next>
+              </FlowStep>
+            </FlowDecision.True>
+            <FlowDecision.False>
+              <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <av:Point x:Key="ShapeLocation">815,595</av:Point>
+                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message || Process Ended " sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Process Ended&quot;]">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:LogMessage>
+              </FlowStep>
+            </FlowDecision.False>
+          </FlowDecision>
+        </FlowStep.Next>
+      </FlowStep>
+      <x:Reference>__ReferenceID2</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
+      <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID5</x:Reference>
+      <x:Reference>__ReferenceID6</x:Reference>
+      <x:Reference>__ReferenceID7</x:Reference>
+      <x:Reference>__ReferenceID8</x:Reference>
+      <x:Reference>__ReferenceID9</x:Reference>
+      <x:Reference>__ReferenceID10</x:Reference>
+      <x:Reference>__ReferenceID11</x:Reference>
+      <x:Reference>__ReferenceID12</x:Reference>
+      <x:Reference>__ReferenceID13</x:Reference>
+      <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID14</x:Reference>
+      <x:Reference>__ReferenceID15</x:Reference>
+      <x:Reference>__ReferenceID16</x:Reference>
+      <x:Reference>__ReferenceID17</x:Reference>
+      <x:Reference>__ReferenceID18</x:Reference>
+      <x:Reference>__ReferenceID19</x:Reference>
+      <x:Reference>__ReferenceID20</x:Reference>
+      <x:Reference>__ReferenceID21</x:Reference>
+      <x:Reference>__ReferenceID22</x:Reference>
+      <x:Reference>__ReferenceID23</x:Reference>
+      <x:Reference>__ReferenceID24</x:Reference>
+      <x:Reference>__ReferenceID25</x:Reference>
+      <x:Reference>__ReferenceID26</x:Reference>
+      <x:Reference>__ReferenceID27</x:Reference>
+      <x:Reference>__ReferenceID28</x:Reference>
+      <x:Reference>__ReferenceID29</x:Reference>
+      <x:Reference>__ReferenceID30</x:Reference>
+      <x:Reference>__ReferenceID31</x:Reference>
+      <x:Reference>__ReferenceID32</x:Reference>
+      <x:Reference>__ReferenceID33</x:Reference>
+      <FlowStep x:Name="__ReferenceID34" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">665,325</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">775.4,360.2 805.4,360.2 805.4,140 1140,140 1140,170</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_Launch - Invoke Workflow File (ACME_WebApplication\ACME_Launch.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_125" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_Launch.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <OutArgument x:TypeArguments="x:String" x:Key="out_ACMEPageFlage">[strAcmePageFlage]</OutArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:InvokeWorkflowFile>
+        <FlowStep.Next>
+          <FlowDecision x:Name="__ReferenceID41" Condition="[strAcmePageFlage =&quot;RED&quot;]" DisplayName="ACME1 Launch Faild?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <av:Point x:Key="ShapeLocation">1110,170</av:Point>
+                <av:Size x:Key="ShapeSize">60,60</av:Size>
+                <av:PointCollection x:Key="TrueConnector">1170,200 1200,200 1200,200.2 1295,200.2</av:PointCollection>
+                <av:PointCollection x:Key="FalseConnector">1140,230 1140,260 1140.2,260 1140.2,285</av:PointCollection>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <FlowDecision.True>
+              <FlowStep x:Name="__ReferenceID40">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <av:Point x:Key="ShapeLocation">1295,165</av:Point>
+                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="End Of Process" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;Process Ended&quot;]">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:LogMessage>
+              </FlowStep>
+            </FlowDecision.True>
+            <FlowDecision.False>
+              <FlowStep x:Name="__ReferenceID39">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <av:Point x:Key="ShapeLocation">1085,285</av:Point>
+                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                    <av:PointCollection x:Key="ConnectorLocation">1140.2,355.4 1140.2,385.4 1140,385.4 1140,400</av:PointCollection>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_Login - Invoke Workflow File (ACME_WebApplication\ACME_Login.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_127" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_Login.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <OutArgument x:TypeArguments="x:String" x:Key="out_LoginFlage">[strLoginFlage]</OutArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_Email">[CredUsername]</InArgument>
+                    <InArgument x:TypeArguments="ss:SecureString" x:Key="in_Password">[CredPassword]</InArgument>
+                  </ui:InvokeWorkflowFile.Arguments>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:InvokeWorkflowFile>
+                <FlowStep.Next>
+                  <FlowDecision x:Name="__ReferenceID38" Condition="[strLoginFlage =&quot;RED&quot;]" DisplayName="Login Faild?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <av:Point x:Key="ShapeLocation">1110,400</av:Point>
+                        <av:Size x:Key="ShapeSize">60,60</av:Size>
+                        <av:PointCollection x:Key="TrueConnector">1170,430 1200,430 1200,430.2 1295,430.2</av:PointCollection>
+                        <av:PointCollection x:Key="FalseConnector">1110,430 1095.4,430 1095.4,430.2</av:PointCollection>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <FlowDecision.True>
+                      <FlowStep x:Name="__ReferenceID37">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">1295,395</av:Point>
+                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="End Of Process" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Process Ended&quot;]">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:LogMessage>
+                      </FlowStep>
+                    </FlowDecision.True>
+                    <FlowDecision.False>
+                      <FlowStep x:Name="__ReferenceID43" sap2010:WorkflowViewState.IdRef="FlowStep_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">985,395</av:Point>
+                            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                            <av:PointCollection x:Key="ConnectorLocation">985,430.2 955.4,430.2</av:PointCollection>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_Launch - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_Launch.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_129" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_Launch.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <InArgument x:TypeArguments="x:String" x:Key="str_Acme3FilePath">[strAcme3FilePath]</InArgument>
+                          </ui:InvokeWorkflowFile.Arguments>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:InvokeWorkflowFile>
+                        <FlowStep.Next>
+                          <FlowStep x:Name="__ReferenceID42">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <av:Point x:Key="ShapeLocation">845,395</av:Point>
+                                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                                <av:PointCollection x:Key="ConnectorLocation">845,430.2 720.2,430.2 720.2,485</av:PointCollection>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACMESystem3_Login - Invoke Workflow File (ACMESystem3_Application\ACMESystem3_Login.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_128" UnSafe="False" WorkflowFileName="ACMESystem3_Application\ACMESystem3_Login.xaml">
+                              <ui:InvokeWorkflowFile.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_Email">[CredUsername]</InArgument>
+                                <InArgument x:TypeArguments="ss:SecureString" x:Key="in_Password">[CredPassword]</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="in_Acme3FilePath">[strAcme3FilePath]</InArgument>
+                              </ui:InvokeWorkflowFile.Arguments>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:InvokeWorkflowFile>
+                            <FlowStep.Next>
+                              <x:Reference>__ReferenceID0</x:Reference>
+                            </FlowStep.Next>
+                          </FlowStep>
+                        </FlowStep.Next>
+                      </FlowStep>
+                    </FlowDecision.False>
+                  </FlowDecision>
+                </FlowStep.Next>
+              </FlowStep>
+            </FlowDecision.False>
+          </FlowDecision>
+        </FlowStep.Next>
+      </FlowStep>
+      <FlowStep x:Name="__ReferenceID35" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">665,245</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">720.2,315.4 720.2,325</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="KillAllUsedApplications - Invoke Workflow File (AppControl\KillAllUsedApplications.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_126" UnSafe="False" WorkflowFileName="AppControl\KillAllUsedApplications.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="s:String[]" x:Key="in_arrAppProcessNames">[{"msedge","ACME-System3"}]</InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:InvokeWorkflowFile>
+        <FlowStep.Next>
+          <x:Reference>__ReferenceID34</x:Reference>
+        </FlowStep.Next>
+      </FlowStep>
+      <FlowStep x:Name="__ReferenceID36" sap2010:WorkflowViewState.IdRef="FlowStep_3">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">665,165</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">720.2,235.4 720.2,245</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="ACMECredential" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[CredPassword]" Username="[CredUsername]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:GetRobotCredential>
+        <FlowStep.Next>
+          <x:Reference>__ReferenceID35</x:Reference>
+        </FlowStep.Next>
+      </FlowStep>
+      <FlowStep x:Name="__ReferenceID44" sap2010:WorkflowViewState.IdRef="FlowStep_4">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">665,85</av:Point>
+            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">720.2,155.4 720.2,165</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign DisplayName="Assign || Acme 3 file path" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[strAcme3FilePath]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">["C:\Users\"+Environment.UserName+"\Downloads\ACME-System3-v0.1\ACME-System3-v0.1\ACME-System3.exe"]</InArgument>
+          </Assign.Value>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Assign>
+        <FlowStep.Next>
+          <x:Reference>__ReferenceID36</x:Reference>
+        </FlowStep.Next>
+      </FlowStep>
+      <x:Reference>__ReferenceID37</x:Reference>
+      <x:Reference>__ReferenceID38</x:Reference>
+      <x:Reference>__ReferenceID39</x:Reference>
+      <x:Reference>__ReferenceID40</x:Reference>
+      <x:Reference>__ReferenceID41</x:Reference>
+      <x:Reference>__ReferenceID42</x:Reference>
+      <x:Reference>__ReferenceID43</x:Reference>
+    </Flowchart>
+  </Sequence>
+</Activity>

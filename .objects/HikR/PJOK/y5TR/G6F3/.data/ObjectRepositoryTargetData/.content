@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QLxosxYNxkCUHQhEV0va3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b1b869eb-756b-4ad2-9aca-97a3f2491016" DesignTimeRectangle="154, 172, 176, 24" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='groupBox1' /&gt;&lt;wnd ctrlname='label1' aaname='Check Number' /&gt;&lt;nav up='1' /&gt;&lt;wnd ctrlname='textBox2' /&gt;" Guid="0396b874-3a90-46ed-b821-1c8ae26dd069" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='acme-system3.exe' ctrlname='SearchCheckCopy' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b1b869eb-756b-4ad2-9aca-97a3f2491016" CvTextArea="33, 178, 83, 12" CvTextArgument="Check Number" CvType="Text" DesignTimeRectangle="31, 177, 89, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlname='groupBox1' /&gt;&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='groupBox1' /&gt;&lt;wnd ctrlname='label1' check:text='Check Number' /&gt;" Guid="f3665e21-f1b3-4e2a-ab5b-77ca47e26d77" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aaae6239992d822c3d1cd861a93ec91d.png" xmlns="">0gz3PP9hdYUi0TAEpSAIo9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

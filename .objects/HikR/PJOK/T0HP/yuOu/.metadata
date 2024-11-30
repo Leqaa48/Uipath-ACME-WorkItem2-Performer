@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click  Based on account number",
+  "Type": "Element",
+  "Id": "yuOug8BKL0-6rb3blpLnFg",
+  "Reference": "9_NX68X91E-qc3s6oLvSSQ/yuOug8BKL0-6rb3blpLnFg",
+  "ParentRef": "9_NX68X91E-qc3s6oLvSSQ/T0HP5cUdMUuXqKs5CiChTg",
+  "Created": "2024-11-23T06:58:52.4278209Z",
+  "Updated": "2024-11-23T06:58:52.4278209Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
